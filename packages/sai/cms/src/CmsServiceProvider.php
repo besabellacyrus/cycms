@@ -23,6 +23,9 @@ class CmsServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->bind('sai-cms', function()
+        {
+            return new Cms();
+        });
     }
 }
