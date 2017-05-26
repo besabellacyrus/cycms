@@ -1,0 +1,14 @@
+{
+    "name": "sai/cms",
+    "description": "Laravel CMS",
+    "type": "laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cyrus",
+            "email": "besabellacyrus@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
